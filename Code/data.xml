@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <item category="Flour">
+	    <tag_id>124</tag_id>
+		<expiry_date>12-04-2018</expiry_date>
+	</item>
+	<item category="Flour">
+	    <tag_id>214</tag_id>
+		<expiry_date>03-05-2018</expiry_date>
+	</item>
+	<item category="Flour">
+	    <tag_id>411</tag_id>
+		<expiry_date>01-05-2018</expiry_date>
+	</item>
+	<item category="Flour">
+	    <tag_id>104</tag_id>
+		<expiry_date>12-06-2018</expiry_date>
+	</item>
+	<item category="Flour">
+	    <tag_id>204</tag_id>
+		<expiry_date>12-05-2018</expiry_date>
+	</item>
+	<item category="eggs">
+	    <tag_id>125</tag_id>
+		<expiry_date>16-04-2018</expiry_date>
+	</item>
+	<item category="eggs">
+	    <tag_id>130</tag_id>
+		<expiry_date>26-04-2018</expiry_date>
+	</item>
+	<item category="eggs">
+	    <tag_id>135</tag_id>
+		<expiry_date>06-05-2018</expiry_date>
+	</item>
+	<item category="eggs">
+	    <tag_id>225</tag_id>
+		<expiry_date>01-05-2018</expiry_date>
+	</item>
+	<item category="eggs">
+	    <tag_id>235</tag_id>
+		<expiry_date>27-04-2018</expiry_date>
+	</item>
+	<item category="cupcakes">
+	    <tag_id>126</tag_id>
+		<expiry_date>23-04-2018</expiry_date>
+	</item>
+	<item category="cupcakes">
+	    <tag_id>176</tag_id>
+		<expiry_date>23-05-2018</expiry_date>
+	</item>
+	<item category="cupcakes">
+	    <tag_id>276</tag_id>
+		<expiry_date>18-04-2018</expiry_date>
+	</item>
+	<item category="cupcakes">
+	    <tag_id>896</tag_id>
+		<expiry_date>20-04-2018</expiry_date>
+	</item>
+	<item category="cupcakes">
+	    <tag_id>826</tag_id>
+		<expiry_date>20-04-2018</expiry_date>
+	</item>
+	<item category="butter">
+	    <tag_id>737</tag_id>
+		<expiry_date>30-04-2018</expiry_date>
+	</item>
+	<item category="butter">
+	    <tag_id>927</tag_id>
+		<expiry_date>30-04-2018</expiry_date>
+	</item>
+	<item category="butter">
+	    <tag_id>110</tag_id>
+		<expiry_date>30-04-2018</expiry_date>
+	</item>
+	<item category="butter">
+	    <tag_id>127</tag_id>
+		<expiry_date>30-04-2018</expiry_date>
+	</item>
+	<item category="butter">
+	    <tag_id>199</tag_id>
+		<expiry_date>30-04-2018</expiry_date>
+	</item>
+	
+</inventory>
