@@ -104,9 +104,6 @@
 							
 							<div class="nav">
 								<ul>
-								   <!--<li><a href="#portfolio" class="scroll">Contents</a></li>
-								   
-								   <li><a href="#contact" class="scroll">Contact</a></li>-->
 								   <li  class="active"><a href="login.html"><!--<?php echo "<b>Logout  </b>('.$login_session.')"; ?>-->Logout</a></li>
 								   
 								 <div class="clear"> </div>
@@ -126,31 +123,8 @@
 					<div class="clear"> </div>
 					<div class="container">
 						<h2> Paris Confectionary Shop</h2>
-					<!--	
-					<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web">Everything</span></li>
-						<li><span class="filter" data-filter="app web">Lost Something?</span></li>
-						<li><span class="filter" data-filter="icon web card">Found Something?</span></li>
-						
-					</ul>-->
+					
 			<div id="portfoliolist">
-			<!--
-			<div class="portfolio card" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-1">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-                                        <a href="found.php"><h3>Found Something?</h3></a>										
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div> -->		
 				
 			<div class="portfolio app" data-cat="app">
 			</div>	
@@ -250,87 +224,12 @@
 	</div>
 	</div>
 </div>
-<!---End-gallery----->
-<!-----start-about-------->
 
 
-<!---------end-about-------------
 <div class="contact" id="contact">
 	<div class="wrap">
 		<h2>Contact Us</h2>
 		
-		<div class="section group">
-			  <div class="col span_2_of_3">
-				  <div class="contact-form">
-                  <?php
-				  	include('config.php');
-					$query="Select *from usermaster where EmailID='{$login_session}'";
-					$result=mysql_query($query) or die(mysql_error());
-					while($row=mysql_fetch_array($result))
-					{
-					
-				  ?>
-				  	  <form method="post" action="contactus.php">
-					    		<input type="text" readonly value="<?php echo $row['FirstName']; ?>" class="textbox" placeholder="Your Name" name="txtName"  required title="Your Name">
-						    	<input type="text" readonly value="<?php echo $row['EmailID']; ?>" class="textbox" placeholder="Your Email Address" required name="txtEmail" title="Your Email Address">
-                                						    	<div class="clear"> </div>
-						   
-						    <div>
-                            <input type="text" class="textbox" placeholder="Subject" required name="txtSubject" title="Subject">
-
-                            <br>
-						    	<textarea placeholder="You Message" required name="txtMessage" title="You Message"></textarea>
-						    </div>
-						  <span><input type="submit" class="" value="Submit"></span>
-						  <div class="clear"></div>
-					    </form>
-                        <?php
-						}
-						?>
-				  </div>
-  				</div>
-				<div class="col span_1_of_3">
-					<div class="company_address">
-				     	<h5>ABOUT US</h5>
-						<ul class="list3">
-							<li>
-								<img src="images/location.png" alt=""/>
-								<div class="extra-wrap">
-								  <p>Dharmsinh Desai University</p>
-								  <p>Nadiad 387-001</p>
-								  <p>Gujarat</p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-							
-							<li>
-								<img src="images/phone.png" alt=""/>
-								<div class="extra-wrap">
-									<p>(0268) 2520503</p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-							<li>
-								<img src="images/fax2.png" alt=""/>
-								<div class="extra-wrap">
-									<p>(0268) 2520501</p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-							<li>
-								<img src="images/mail.png" alt=""/>
-								<div class="extra-wrap">
-									<p> <a href="http://www.ddu.ac.in"> Official Website</a></p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-						</ul>
-				   </div>
-				 </div>
-				 <div class="clear"></div>
-			  </div>
-			  </div>
-     	</div> -->
 		<div class="hide">	
 			<div class="portfolio web" data-cat="app">
 				<div class="portfolio-wrapper">						
@@ -339,7 +238,6 @@
 							<li>
 								<div class="ch-item ch-img-10">
 									<div class="ch-info">
-										<!--<img src="images/zoom-white.png"/>-->
 										<h3 style="text-align:center">Amit</h3>
 										
 									</div>
@@ -347,9 +245,34 @@
 							</li>
 							<h3>Amit Redhu</h3>
 							<p>E-mail ID:- amit.redhu2015@gmail.com</p>
-							<p> hone No - 1234567895 </p>
+							<p> Phone No - 1234567895 </p>
 						</ul>
-					<!--</a>-->
+					</a>
+					
+				</div>
+				
+			</div>
+					
+		</div>
+		
+		<div class="hide">	
+			<div class="portfolio web" data-cat="app">
+				<div class="portfolio-wrapper">						
+					<class="popup-with-zoom-anim" href="#small-dialog1">
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item ch-img-10">
+									<div class="ch-info">
+										<h3 style="text-align:center">Shivam Garg</h3>
+										
+									</div>
+								</div>
+							</li>
+							<h3>Shivam Garg</h3>
+							<p>E-mail ID:- shivamgarg2910@gmail.com</p>
+							<p> Phone No - 1230456897 </p>
+						</ul>
+					</a>
 					
 				</div>
 				
