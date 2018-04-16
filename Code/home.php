@@ -89,26 +89,7 @@
 </head>
 
 <body>
-<?php
-if($conn=mysqli_connect("localhost","root","","paris_confectionary_shop"))
-{
-    //echo " connection successful";
-}
-else{
-	echo "unsuccessful";
-}
 
-// please put the following code into a web service and pop it in a box on home.php as soon as we login if any.
-//$startdate=Date('Y-m-d');
-//$sql1="select * from inventory where expiry_date<='$startdate'";
-//$sql="delete from inventory where expiry_date<='$startdate'";
-//$result1=mysqli_query($conn,$sql1);
-//$result=mysqli_query($conn,$sql);		
-// till this line 
-// above code is to delete expired products;
-// uncomment them @guaravjit
-// sql1 will return 1 row, so 1 box;
-?>
 				<div class="header_bg">
 					<div class="wrap">
 						<div class="header">
@@ -222,7 +203,7 @@ else{
 								<div class="ch-item ch-img-3">
 									<div class="ch-info">
 										<img src="images/zoom-white.png"/>
-										<a href="contactus.php"><h3>Contact Us</h3></a>
+										<a href="http://localhost/Project/contactus.php"><h3>Contact Us</h3></a>
 										
 									</div>
 								</div>
@@ -242,7 +223,29 @@ else{
 	</div>
 	</div>
 </div>
+<?php
+if($conn=mysqli_connect("localhost","root","","paris_confectionary_shop"))
+{
+    //echo " connection successful";
+}
+else{
+	echo "unsuccessful";
+}
 
+include './client.php';
+$client = new client;
+echo "Expired Items :<br>";
+echo "1.";
+$res=$client->getName();
+$s = sizeof($res);
+echo "hello";
+$i  = 0;
+while($i < $s)
+{
+	echo $res[$i];
+	$i +=1;
+}
+?>
      <div class="footer-bottom">
      	<div class="wrap">
         <div class="copy">
